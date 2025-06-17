@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* width: 200px; */
+  color: grey;
+  
+}
+
+.app-container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 0.3rem;
+}
